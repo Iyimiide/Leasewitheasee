@@ -52,7 +52,8 @@ if(isset($_POST["submit"])){
               <button type="submit" name="submit" class="btn btn-primary btn-block">Login</button>
             </form>
             <div class="mt-3">
-              <a href="registration2.php">Create an account</a>
+              <a href="registration2.php">Create your Realtor account</a>
+                              <li> <a href="index.html">Home</a></li>
             </div>
           </div>
         </div>
