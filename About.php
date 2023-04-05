@@ -14,9 +14,8 @@
             <div class="right">
                 <div class="links">
                 <li> <a href="index.html">Home</a></li>
-                     <a href="Services">Services</a>
-                     <a href="signupCustomer.html">Signup</a>
-                     <a href="loginCustomer.html">Login</a>
+                     <a href="registration.php">Signup Customer</a>
+                     <a href="login.php">Login Customer</a>
                 </div>
             </div>
             <div class="left">
