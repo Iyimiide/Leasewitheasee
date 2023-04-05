@@ -1,7 +1,7 @@
 <?php
 require 'config2.php';
 if(!empty($_SESSION["id"])){
-  header("Location: index2.php");
+  header("Location: landing2.php");
 }
 if(isset($_POST["submit"])){
   $name = $_POST["name"];
