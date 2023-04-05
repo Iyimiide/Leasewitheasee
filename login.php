@@ -53,6 +53,7 @@ if(isset($_POST["submit"])){
             </form>
             <div class="mt-3">
               <a href="registration.php">Create an account</a>
+                              <li> <a href="index.html">Home</a></li>
             </div>
           </div>
         </div>
