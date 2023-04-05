@@ -1,7 +1,7 @@
 <?php
 require 'config.php';
 if(!empty($_SESSION["id"])){
-  header("Location: index.php");
+  header("Location: landing.php");
 }
 if(isset($_POST["submit"])){
   $usernameemail = $_POST["usernameemail"];
@@ -12,7 +12,7 @@ if(isset($_POST["submit"])){
     if($password == $row['password']){
       $_SESSION["login"] = true;
       $_SESSION["id"] = $row["id"];
-      header("Location: index.php");
+      header("Location: landing.php");
     }
     else{
       echo "<div class='alert alert-danger'>Wrong Password</div>";
