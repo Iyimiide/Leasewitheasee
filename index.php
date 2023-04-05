@@ -1,22 +1,110 @@
-<?php
-require 'config.php';
-if(!empty($_SESSION["id"])){
-  $id = $_SESSION["id"];
-  $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE id = $id");
-  $row = mysqli_fetch_assoc($result);
-}
-else{
-  header("Location: login.php");
-}
-?>
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Leasewithease</title>
-  </head>
-  <body>
-    <h1>Welcome <?php echo $row["name"]; ?></h1>
-    <a href="logout.php">Logout</a>
+    <meta charset="UTF-8">
+    <title>LEASE WITH EASE</title>
+          <style>
+/* CSS for logo */
+#logo {
+    height: 90px;
+    width: 180px;
+    float: left;
+}
+
+/* CSS for body */
+body {
+        background-image: url("Assets/land.JPG");
+        background-size: cover;
+        background-position: center;
+        background-color: white;
+}
+
+/* CSS for header */
+header {
+  background-color: rgb(51, 61, 51);
+  color: white;
+  padding: 20px;
+}
+
+/* CSS for logo */
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* CSS for navigation menu */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: Black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* CSS for main content */
+main {
+  margin-top: 20px;
+}
+
+/* CSS for footer */
+footer {
+  background-color: #333333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+        </style>
+     </head>
+    <body>
+      <header>
+        <img src="Assets/LeaseWithEase.png" alt="logo" id="logo">
+        <nav>
+              <ul>
+                  <li> <a href="index.html">Home</a></li>
+                  <li> <a href="About.php">About Us</a></li>
+                  <li> <a href="login.php">Sign Up/Login</a></li>
+                  <li> <a href="About.php">Contact Us</a></li>
+                  <li> <a href="login2.php">Realtors Login/Signup</a></li>
+              </ul>
+          </nav>
+          </header>
+    <main>
+      <h1>Welcome To Your Lease With Ease</h1>
+       <p>We hope you find the perfect property for your needs!</p>
+      <p> Find the latest land to rent in Kano with Kano's most user-friendly property portal. Search properties to let from leading estate agents. </p>
+      <iframe width="600" height="315" src="https://www.youtube.com/embed/Kf47C8iunnM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </main>
+        <footer>
+  <p>LeaseWithEase Nigeria</p>
+  <p>Xofiri 07404167666 | Bummi 09090000252 | Database 08036101842</p>
+  <hr>
+  <p>Follow us on:</p>
+  <div class="social-media-icons">
+    <a href="https://www.instagram.com/LeaseWithEase/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/LeaseWithEase/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  </div>
+  <p><a href="/about-us">About Us</a></p>
+  <p class="copyright">
+    &copy; 2023 LeaseWithEase Nigeria. All rights reserved.
+  </p>
+</footer>
+
   </body>
 </html>
