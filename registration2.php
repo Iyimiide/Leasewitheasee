@@ -101,5 +101,6 @@ if(isset($_POST["submit"])){
    </form>
     <br>
     <a href="login2.php">Login</a>
+                    <li> <a href="index.html">Home</a></li>
   </body>
 </html>
