@@ -37,7 +37,7 @@ if(isset($_POST["submit"])){
       <div class="col-md-6 mt-5">
         <div class="card">
           <div class="card-header">
-            <h2 class="text-center">Login To Your Lease With Ease</h2>
+            <h2 class="text-center">Login To Your Realtor Account</h2>
           </div>
           <div class="card-body">
             <form action="" method="post" autocomplete="off">
