@@ -30,7 +30,7 @@ if(isset($_POST["submit"])){
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Create Your Lease With Ease Realtor Account</title>
+    <title>Create Your Lease With Ease Admin Account</title>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -85,7 +85,7 @@ if(isset($_POST["submit"])){
     </style>
   </head>
   <body>
-    <h2>Create Your Lease With Ease Realtor Account</h2>
+    <h2>Create Your Lease With Ease Admin Account</h2>
     <form class="" action="" method="post" autocomplete="off">
       <label for="name">Name:</label>
       <input type="text" name="name" id="name" required value=""> <br>
