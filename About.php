@@ -79,9 +79,9 @@ footer {
               <ul>
                   <li> <a href="index.html">Home</a></li>
                   <li> <a href="About.php">About Us</a></li>
-                  <li> <a href="login.php">Sign Up/Login</a></li>
-                  <li> <a href="About.php">Contact Us</a></li>
-                  <li> <a href="login2.php">Realtors Login/Signup</a></li>
+                  <li> <a href="#">Listings</a></li>
+                  <li> <a href="login.php">Realtors Sign Up/Login</a></li>
+                  <li> <a href="login2.php">Admin</a></li>
               </ul>
           </nav>
           </header>
