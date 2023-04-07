@@ -6,6 +6,17 @@ require 'config.php';
   <head>
     <meta charset="utf-8">
     <title>Listings</title>
+    <style>
+      body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+      </style>
   </head>
   <body>
     <table border = 1 cellspacing = 0 cellpadding = 10>
