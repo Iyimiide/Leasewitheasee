@@ -80,8 +80,8 @@ footer {
                   <li> <a href="index.html">Home</a></li>
                   <li> <a href="About.php">About Us</a></li>
                   <li> <a href="login.php">Realtor Sign Up/Login</a></li>
-                  <li> <a href="About.php">Contact Us</a></li>
-                  <li> <a href="login2.php">Admin Login/Signup</a></li>
+                  <li> <a href="listings.php">Listings</a></li>
+                  <li> <a href="login2.php">Admin</a></li>
               </ul>
           </nav>
           </header>
