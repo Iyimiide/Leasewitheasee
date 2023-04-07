@@ -79,7 +79,7 @@ footer {
               <ul>
                   <li> <a href="index.php">Home</a></li>
                   <li> <a href="logout2.php">Logout/a></li>
-                  <li> <a href="index4.php">Add listing</a></li>
+                  <li> <a href="index3.php">Add listing</a></li>
               </ul>
           </nav>
           </header>
