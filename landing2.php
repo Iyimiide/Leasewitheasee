@@ -79,14 +79,15 @@ footer {
               <ul>
                   <li> <a href="index.php">Home</a></li>
                   <li> <a href="logout2.php">Logout/a></li>
+                  <li> <a href="listings.php">View All Listings/a></li>
                   <li> <a href="index3.php">Add listing</a></li>
               </ul>
           </nav>
           </header>
     <main>
       <h1>Welcome to Lease With Ease</h1>
-      <h2>This is your Realtor account</h2>
-      <p> Your Realtor priviledges are:.... </p>
+      <h2>This is your Admin account</h2>
+      <p> Your Admin priviledges are:.... </p>
     </main>
     <footer>
       <p>&copy; 2023 Lease With Ease. All rights reserved.</p>
