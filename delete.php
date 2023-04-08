@@ -39,6 +39,7 @@ if(isset($_POST["delete"]) && isset($_POST["deleteId"])){
         <td><?php echo $row["size&location"]; ?></td>
         <td><?php echo $row["duration"]; ?></td>
         <td><?php echo $row["description"]; ?></td>
+        <td> <img src="img/<?php echo $row["image"]; ?>" width = 200 title="<?php echo $row['image']; ?>"> </td>
         </tr>
         <?php endforeach; ?>
       </form>
