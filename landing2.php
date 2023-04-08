@@ -81,6 +81,7 @@ footer {
                   <li> <a href="logout2.php">Logout/a></li>
                   <li> <a href="listings.php">View All Listings/a></li>
                   <li> <a href="index3.php">Add listing</a></li>
+                  <li> <a href="delete.php">Remove listing</a></li>
               </ul>
           </nav>
           </header>
