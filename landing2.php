@@ -82,6 +82,7 @@ footer {
                   <li> <a href="listings.php">View All Listings/a></li>
                   <li> <a href="index3.php">Add listing</a></li>
                   <li> <a href="delete.php">Remove listing</a></li>
+                  <li> <a href="deactivate.php">Delete User</a></li>
               </ul>
           </nav>
           </header>
