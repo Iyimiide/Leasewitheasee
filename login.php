@@ -54,7 +54,6 @@ if(isset($_POST["submit"])){
             <div class="mt-3">
               <a href="registration.php">Create an account</a>
                               <li> <a href="index.html">Home</a></li>
-              <li> <a href="reset.php">Forgot password?</a></li>
             </div>
           </div>
         </div>
