@@ -78,9 +78,10 @@ footer {
         <nav>
               <ul>
                   <li> <a href="index.php">Home</a></li>
-                  <li> <a href="logout.php">Logout/a></li>
+                  <li> <a href="logout.php">Logout</a></li>
                   <li> <a href="index3.php">Add listings</a></li>
                   <li> <a href="deleteaccount.php">Delete account</a></li>
+                  <li> <a href="changepassword.php">Delete account</a></li>
               </ul>
           </nav>
           </header>
